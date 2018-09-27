@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>猫粮</title>
+    <script>!function (e, t) {
+            var n = t.documentElement,
+                d = e.devicePixelRatio || 1;
+            function i() {
+                var e = n.clientWidth / 7.5;
+                n.style.fontSize = e + "px"
+            }
+            if (function e() { t.body ? t.body.style.fontSize = "16px" : t.addEventListener("DOMContentLoaded", e) }(), i(), e.addEventListener("resize", i), e.addEventListener("pageshow", function (e) { e.persisted && i() }), d >= 2) {
+                var o = t.createElement("body"),
+                    a = t.createElement("div");
+                a.style.border = ".5px solid transparent", o.appendChild(a), n.appendChild(o), 1 === a.offsetHeight && n.classList.add("hairlines"), n.removeChild(o)
+            }
+        }(window, document)</script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="language">
+            <span id="chinese" class="active">中文</span>
+            <span>|</span>
+            <span id="english">ENG</span>
+        </div>
+        <div class="content">我们致力于探求自然，人类，动物和谐相处的最佳方式。
+            <br />始终以材料科技为核心来打造更健康、更舒适的人与宠物之间的生活共处环境。</div>
+        <div class="tip">主站建设中...</div>
+    </div>
+    <div class="shops">
+        <div class="shop">
+            <img src="./imgs/tianmao.png" alt="天猫旗舰店" class="qr-code">
+            <div class="name">天猫旗舰店</div>
+            <a href="https://maodianxia.tmall.com" class="href">https://maodianxia.tmall.com</a>
+        </div>
+        <div class="shop">
+            <img src="./imgs/taobao.png" alt="淘宝企业店" class="qr-code">
+            <div class="name">淘宝企业店</div>
+            <a href="https://shop438168601.taobao.com" class="href">https://shop438168601.taobao.com</a>
+        </div>
+        <div class="shop">
+            <img src="./imgs/weibo.png" alt="微博 Cature小壳" class="qr-code">
+            <div class="name">微博 Cature小壳</div>
+            <a href="https://weibo.com/cature" class="href">https://weibo.com/cature</a>
+        </div>
+        <div class="shop">
+            <img src="./imgs/wechat.png" alt="微信公众号" class="qr-code">
+            <div class="name">微信公众号</div>
+            <div class="href">Cature小壳</div>
+        </div>
+    </div>
+    <div class="contact" style="display: none">
+        <div class="email">E-Mail ：derrick@cature.com</div>
+        <div class="tel">Tel :（0086）21-8035-1259</div>
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./js/mobile.js"></script>
+</body>
+
+</html>

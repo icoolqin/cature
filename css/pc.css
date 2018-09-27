@@ -1,0 +1,83 @@
+body {
+  font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei,
+    WenQuanYi Micro Hei, sans-serif;
+}
+
+.header {
+  text-align: center;
+  background-color: #00c4b4;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+.language {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+  font-size: 16px;
+}
+
+.language > span {
+  color: #00786e;
+  cursor: pointer;
+}
+
+.language .active {
+  color: #fff;
+}
+
+.header img {
+  max-width: 1200px;
+}
+
+.shops {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+
+.shop {
+  float: left;
+  margin-top: 70px;
+  margin-right: 200px;
+  width: 500px;
+  overflow: hidden;
+}
+
+.shop:nth-child(2n) {
+  margin-right: 0;
+}
+
+.shop:last-child {
+  margin-bottom: 70px;
+}
+
+.qr-code {
+  float: left;
+  margin-right: 30px;
+  width: 80px;
+  height: 80px;
+}
+
+.title {
+  float: left;
+  margin-top: 10px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.href {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact {
+  margin-top: 80px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  color: #666;
+}

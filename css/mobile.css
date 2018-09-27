@@ -1,0 +1,76 @@
+body {
+  font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei,
+    WenQuanYi Micro Hei, sans-serif;
+}
+
+.header {
+  box-sizing: border-box;
+  padding-top: 2.6rem;
+  width: 100%;
+  height: 6.86rem;
+  background-image: url(../imgs/bg-zh.png);
+  background-size: contain;
+  position: relative;
+}
+
+.language {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+}
+
+.language > span {
+  font-size: 0.24rem;
+  color: #00786e;
+}
+
+.language .active {
+  color: #fff;
+}
+
+.content {
+  margin: 0 auto;
+  width: 4.2rem;
+  text-align: center;
+  line-height: 0.48rem;
+  font-size: 0.3rem;
+  color: #fff;
+}
+
+.tip {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.24rem;
+  color: #fff;
+}
+
+.contact {
+  margin-top: 0.7rem;
+  margin-bottom: 0.4rem;
+  text-align: center;
+  line-height: 0.6rem;
+  font-size: 0.24rem;
+  color: #666;
+}
+
+.shop {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  text-align: center;
+}
+
+.qr-code {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.name,
+.href {
+  line-height: 0.3rem;
+  font-size: 0.24rem;
+}
+
+a.href {
+  color: #000;
+  text-decoration: none;
+}
